@@ -1,7 +1,7 @@
 // questions are solve from "https://www.w3resource.com/cpp-exercises/for-loop/index.php" this page
 
-
 #include <iostream>
+#include <math.h>
 using namespace std;
 int main()
 {
@@ -81,8 +81,67 @@ int main()
 
     //  a program in C++ to check whether a number is prime or not
 
+    /*
+    
+    int n;
+    int flag =0;
+    cin>>n;
+    for(i=2; i<n; i++){
+        if(n%i==0){
+            cout<<"The numer is not  prime"<<endl;
+            flag =1;
+            break;
+        }
+        
+    }
+    if(flag == 0){
+        cout<<"prime"<<endl;
+    }
+
+    */
+
+    // a program in C++ to find prime number within a range
 
 
+    /*
+    int n;
+    int flag = 0;
+    int fnd = 0;
+    cout << "Enter starting range ";
+    cin >> i;
+    cout << "Enter ending range ";
+    cin >> n;
+    for (int a = i; a <= n; a++)
+    {
+        for (int j = 2; j < sqrt(a); j++)
+        {
+            if (a % j == 0)
+            {
+                flag++;
+            }
+            if (flag == 0 && a != 1)
+            {
+                fnd++;
+                cout << a << " ";
+                flag = 0;
+            }
+        }
+        flag = 0;
+    }
+    cout << fnd << endl; */
 
+
+    //  a program in C++ to find the factorial of a number
+    /*
+
+    int mul = 1;
+    cout<<"Enter any number ";
+    cin>>i;
+
+    for (int a=1; a<=i; a++){
+        mul = mul * a;
+
+    }
+    cout<<"The fectorial of the given number is "<<mul<<endl; */
     return 0;
 }
