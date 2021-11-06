@@ -143,5 +143,8 @@ int main()
 
     }
     cout<<"The fectorial of the given number is "<<mul<<endl; */
+
+
+    
     return 0;
 }
